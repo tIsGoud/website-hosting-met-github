@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="307px" preserveAspectRatio="none" style="width:172px;height:307px;" version="1.1" viewBox="0 0 172 307" width="172px" zoomAndPan="magnify"><defs><filter height="300%" id="f1asrojy85dhvp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="148" x="12" y="26.708">Activity Diagram</text><ellipse cx="78" cy="40.9531" fill="#000000" filter="url(#f1asrojy85dhvp)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#F8F8F8" filter="url(#f1asrojy85dhvp)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #383838; stroke-width: 1.5;" width="41" x="57.5" y="114.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="67.5" y="136.0918">Eat</text><rect fill="#F8F8F8" filter="url(#f1asrojy85dhvp)" height="33.9688" rx="12.5" ry="12.5" style="stroke: #383838; stroke-width: 1.5;" width="52" x="52" y="176.4219"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="62" y="197.5605">Drink</text><polygon fill="#F8F8F8" filter="url(#f1asrojy85dhvp)" points="78,70.9531,90,82.9531,78,94.9531,66,82.9531,78,70.9531" style="stroke: #383838; stroke-width: 1.5;"/><polygon fill="#F8F8F8" filter="url(#f1asrojy85dhvp)" points="42.5,230.3906,113.5,230.3906,125.5,242.3906,113.5,254.3906,42.5,254.3906,30.5,242.3906,42.5,230.3906" style="stroke: #383838; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="42.5" y="246.1987">Still Hungry?</text><ellipse cx="78" cy="285.3906" fill="#FFFFFF" filter="url(#f1asrojy85dhvp)" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="78" cy="285.3906" fill="#000000" rx="6" ry="6" style="stroke: #7F7F7F; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="78" x2="78" y1="148.9219" y2="176.4219"/><polygon fill="#383838" points="74,166.4219,78,176.4219,82,166.4219,78,170.4219" style="stroke: #383838; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="78" x2="78" y1="94.9531" y2="114.9531"/><polygon fill="#383838" points="74,104.9531,78,114.9531,82,104.9531,78,108.9531" style="stroke: #383838; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="125.5" x2="137.5" y1="242.3906" y2="242.3906"/><polygon fill="#383838" points="133.5,168.9219,137.5,158.9219,141.5,168.9219,137.5,164.9219" style="stroke: #383838; stroke-width: 1.5;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="137.5" x2="137.5" y1="82.9531" y2="242.3906"/><line style="stroke: #383838; stroke-width: 1.5;" x1="137.5" x2="90" y1="82.9531" y2="82.9531"/><polygon fill="#383838" points="100,78.9531,90,82.9531,100,86.9531,96,82.9531" style="stroke: #383838; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="78" x2="78" y1="210.3906" y2="230.3906"/><polygon fill="#383838" points="74,220.3906,78,230.3906,82,220.3906,78,224.3906" style="stroke: #383838; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="78" x2="78" y1="50.9531" y2="70.9531"/><polygon fill="#383838" points="74,60.9531,78,70.9531,82,60.9531,78,64.9531" style="stroke: #383838; stroke-width: 1.0;"/><line style="stroke: #383838; stroke-width: 1.5;" x1="78" x2="78" y1="254.3906" y2="274.3906"/><polygon fill="#383838" points="74,264.3906,78,274.3906,82,264.3906,78,268.3906" style="stroke: #383838; stroke-width: 1.0;"/><!--
+@startuml
+skinparam monochrome true
+
+title Activity Diagram 
+
+start
+
+repeat
+  :Eat;
+  :Drink;
+repeat while (Still Hungry?)
+
+stop
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 11:04:44 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

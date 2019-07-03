@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Website hosting met GitHub</title>
+
+	<link rel="stylesheet"
+		href="css/reveal.css">
+	<link rel="stylesheet"
+		href="css/theme/kpn_light.css"
+		id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet"
+		href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports (http://localhost:8000/?print-pdf#/)-->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!--	<section data-background-image="images/Salinas_Grandes.jpg" data-background-opacity="0.4"><h2>Tekst-gebaseerde tools,</h2><h3>echt niet alleen voor nerds …</h3></section>
+				<section><h3>Slide 2</h3></section>
+				<section>
+					<section data-menu-title="SDN Note 1"><img src="images/SDN-note1.png"></section>
+					<section><img src="images/SDN-note2.png"></section>
+					<section><img src="images/SDN-note3.png"></section>
+					<section><img src="images/SDN-note4.png"></section>
+				</section>
+				<section><img class='white_bg' src="images/diagram.svg"></section> -->
+			<section data-markdown="content.md"
+				data-separator="^\r?\n---\r?\n$"
+				data-separator-vertical="^\r?\n--\r?\n$"
+				data-separator-notes="^Note:"
+				data-charset="iso-8859-15">
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			// https://github.com/hakimel/reveal.js#configuration
+			controls: true,
+			controlsTutorial: false,
+			progress: true,
+			history: true,
+			center: false, // Vertically centered
+			slideNumber: false,
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+			transitionSpeed: 'slow',
+
+			menu: {
+				// https://github.com/denehyg/reveal.js-menu
+				side: 'left',
+				width: 'normal',
+				numbers: true,
+				titleSelector: 'h1, h2, h3, h4, h5, h6',
+				useTextContentForMissingTitles: true,
+				hideMissingTitles: false,
+				markers: true,
+				custom: [
+					{ title: 'Links', icon: '<i class="fa fa-link">', src: 'menu_external_links.html' },
+					{ title: 'Info', icon: '<i class="fa fa-info">', src: 'menu_info.html' }
+				],
+				themes: [
+					{ name: 'KPN Light', theme: 'css/theme/kpn_light.css' }, // based on the white theme
+					{ name: 'KPN Dark', theme: 'css/theme/kpn_dark.css' }    // based on the black theme
+				],
+				themesPath: 'css/theme',
+				transitions: true,
+				openButton: false,
+				openSlideNumber: false,
+				keyboard: true,
+				sticky: false,
+				autoOpen: true,
+				delayInit: false,
+				openOnInit: false,
+				loadIcons: true
+			},
+
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true }, // [s]
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/menu/menu.js' }, // [m]
+				{ src: 'plugin/search/search.js', async: true }, // [ctrl]-[shift]-[f]
+			]
+		});
+	</script>
+</body>
+
+</html>
